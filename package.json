@@ -1,0 +1,19 @@
+{
+  "name": "alioss-d",
+  "version": "1.2.0",
+  "description": "ali-oss dir download ",
+  "main": "index.js",
+  "dependencies": {
+    "ali-oss": "^6.17.1",
+    "md5-file": "^5.0.0",
+    "node-status": "^1.0.0",
+    "single-line-log": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjy2931/alioss-download.git"
+  },
+  "author": "zjy2931",
+  "license": "ISC",
+  "homepage": "https://github.com/zjy2931/alioss-download#readme"
+}
