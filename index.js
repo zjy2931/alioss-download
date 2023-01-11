@@ -4,7 +4,7 @@
  * @Autor: zhangjy
  * @Date: 2020-08-04 19:18:56
  * @LastEditors: zhangjy
- * @LastEditTime: 2023-01-11 14:47:12
+ * @LastEditTime: 2023-01-11 15:29:32
  */
 const OSS = require('ali-oss');
 const fs = require('fs');
@@ -18,6 +18,8 @@ async function downloadDir(ossPath, localPath) {
     console.log('开始下载');
     ossPath = ossPath + '/';
     localPath = localPath + '/';
+    dirList = [],
+    fileList = []
     successNums = 0;
     await getOssFileList(ossPath);
     await readOssDir(ossPath);

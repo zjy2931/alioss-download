@@ -1,6 +1,6 @@
 {
   "name": "alioss-d",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "ali-oss dir download ",
   "main": "index.js",
   "dependencies": {
